@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pag="clr-namespace:A04LayoutXF.Pages"
+             x:Class="A04LayoutXF.Master.Menu">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" BackgroundColor="#0D1F2D">
+            <StackLayout>
+                <StackLayout BackgroundColor="#FFC926" Padding="30">
+                    <Image Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+                </StackLayout>
+
+                <StackLayout Spacing="20">
+                    <Button Text="Miguel de Icaza" FontSize="24" TextColor="White" Clicked="GoPaginaPerfil" BackgroundColor="Transparent"/>
+                    <Button Text="Joseph Hill" FontSize="24" TextColor="White" BackgroundColor="Transparent"/>
+                    <Button Text="Nat Friedman" FontSize="24" TextColor="White" BackgroundColor="Transparent"/>
+                    <Button Text="Sobre a Xamarin" FontSize="24" TextColor="White" Clicked="GoPaginaXamarin" BackgroundColor="Transparent"/>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

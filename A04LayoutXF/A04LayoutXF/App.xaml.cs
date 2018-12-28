@@ -11,7 +11,7 @@ namespace A04LayoutXF
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Master.Menu();
         }
 
         protected override void OnStart()
